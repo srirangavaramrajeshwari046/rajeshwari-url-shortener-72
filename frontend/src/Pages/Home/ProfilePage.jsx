@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import Service from '../utils/http.js'
+import Service from "../../utils/http";
 const service = new Service();
 const Profile = () => {
    const [user, setUser] =useState(null)
