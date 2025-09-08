@@ -53,7 +53,7 @@ const Home = () => {
               marginTop: "1rem",
             }}
           >
-           rajeshwari url shortner
+            RAJESHWARI url shortener
           </Title>
 
           <Text
