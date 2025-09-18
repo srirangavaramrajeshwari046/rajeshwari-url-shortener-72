@@ -21,7 +21,7 @@ const Profile = () => {
   }, []);
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-blue-50 to-purple-100 p-6">
+    <div className="flex justify-center items-center" style={{ minHeight: "calc(100vh - 60px)" }}>
       <div className="bg-white shadow-xl rounded-2xl p-8 w-full max-w-sm text-center border border-gray-200">
         <h1 className="text-2xl font-bold text-gray-800 mb-4">User Profile</h1>
         
@@ -51,3 +51,4 @@ const Profile = () => {
 };
 
 export default Profile;
+
