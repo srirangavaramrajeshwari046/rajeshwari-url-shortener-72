@@ -6,8 +6,8 @@ const Profile = () => {
     const getProfileData = async () => {
         try {
             const res = await service.get("user/me");
-            setUser(res);
-            console.log(res);
+            setUser(res?.data);
+            console.log(res?.data);
         }catch(error){
             console.log("Error in fetching profile data", error);
         }
